@@ -6,7 +6,7 @@ body {
     background-color: black;
 }
 .container-fluid{
-    background-color: beige;
+    background-color: #fff;
     color: #9bc848;
 }
 .nav-item{
@@ -38,6 +38,7 @@ body {
     font-size: 26px;
     text-align: center;
     background-color: black;
+    padding-bottom: 150px;
     
 }
 #color1 {
