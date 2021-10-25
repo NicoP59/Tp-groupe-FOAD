@@ -5,6 +5,7 @@ body{
 /* ****************** header ***************** */
 .lien {
     text-align: right;
+    text-decoration: none;
     
 }
 
@@ -19,15 +20,19 @@ body{
     text-align: center;
     font-size: 26px;
     
+    
 }
 #color1{
     color: #665cbe;
+    text-decoration: none;
 }
 #color2{
     color: #9bc848;
+    text-decoration: none;
 }
 #color3{
     color: #fe0016;
+    text-decoration: none;
 }
 /* ******************** section 2 ***************** */
 #item1 {
@@ -63,4 +68,19 @@ body{
 
 footer {
     background-color: #b3a79f;
+    
+}
+.footer-logo {
+    text-align: right;
+    
+
+    
+}
+.footer-icon{
+    text-align: center;
+    font-size: 100px;
+}
+.network {
+    position: absolute;
+    
 }
