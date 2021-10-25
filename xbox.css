@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&family=Work+Sans:wght@300&display=swap');
+
+
+
+body {
+    background-color: black;
+}
+.container-fluid{
+    background-color: beige;
+    color: #9bc848;
+}
+.nav-item{
+    color: #9bc848;
+}
+#navbarDropdown{
+    color: #9bc848;
+}
+
+
+.logo {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#liens {
+    text-align: right;
+    color: #9bc848;
+    text-decoration: none;
+    font-size: 26px;
+}
+.lien {
+    text-align: right;
+}
+
+
+
+.rubrique {
+    font-size: 26px;
+    text-align: center;
+    background-color: black;
+    
+}
+#color1 {
+    color:#9bc848 ;
+    text-decoration: none;
+}
+#color2 {
+    color:#9bc848 ;
+    text-decoration: none;
+}
+#color3 {
+    color:#9bc848 ;
+    text-decoration: none;
+}
+.main-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+#p1 {
+    text-align: center;
+    font-size: 24px;
+    color: #9bc848;
+    font-family: 'Arimo', sans-serif;
+    
+}
+.item1{
+    height: 150px;
+    padding-top: 10px;
+}
+.item2{
+    height: 150px;
+    padding-top: 10px;
+}
+.item3{
+    height: 150px;
+    padding-top: 10px;
+}
+.item4{
+    height: 150px;
+    padding-top: 10px;
+}
+.item5{
+    height: 150px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: black;
+    
+}
+.infos {
+    color: #9bc848;
+}
+
+.footer-logo {
+    text-align: right;
+    padding-bottom: 10px;
+    
+    
+
+    
+}
+.footer-icon{
+    text-align: center;
+    font-size: 100px;
+    color: #9bc848;
+    border: 1px solid #9bc848;
+}

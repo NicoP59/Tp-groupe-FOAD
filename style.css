@@ -8,6 +8,9 @@ body{
     text-decoration: none;
     
 }
+.form-group {
+    width:500px;
+}
 
 /* ****************** Main ***************** */
 
@@ -35,33 +38,52 @@ body{
     text-decoration: none;
 }
 /* ******************** section 2 ***************** */
+
+  
 #item1 {
     height: 150px;
+    
 }
 #item2 {
     height: 150px;
+    
 }
+    
+
+
 #item3 {
     height: 150px;
+
 }
+
 #item4 {
     height: 150px;
+
 }
+
 #item5 {
     height: 150px;
+
 }
 #item6 {
     height: 150px;
+
 }
 #item7 {
     height: 150px;
+
 }
+
 #item8 {
     height: 150px;
+
 }
+
 #item9 {
     height: 150px;
+
 }
+
 
 
 /* ******************** FOOTER ********************* */
