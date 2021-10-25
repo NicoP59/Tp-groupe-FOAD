@@ -9,14 +9,18 @@
 </head>
 <body>
     <header>
-        <nav>
+        <div class="logo">
             <img src="./img/logo.png" alt="logo" class="logo">
+        </div>
+        <div class="input">
+            <input type="text" class="input" placeholder="Search">
+            <form id="contactForm"><input type="submit" class="inputEmail2" value="Valider"></form>
             
-                <div class="input">
-                    <input type="text" class="input" placeholder="Search">
-                </div>
             
-            <div class="lien">
+    </div>
+        <nav>
+            
+            <div class="lien-nav">
                 <ul>
                     <li class=""><a href=""> Acceuil</a></li>
                     <li class=""><a href=""> panier</a></li>
@@ -25,14 +29,20 @@
 
             </div>
         </nav>
+     
     </header>
+    <section class="rubrique">
+        <div>
+            <ul>
+                 <li class="playstation" id="color1"><a href="" id="color1">Playstation</a></li>
+                <li class="xbox" id="color2"><a href="" id="color2"> Xbox</a></li>
+                <li class="Nitendo"id="color3"><a href="" id="color3"> Nitendo</a></li>
+            </ul>
+        </div>
+    </section>
    
     </header>
-    <section>
-        <a href="">xbox</a>
-        <a href="">playstation</a>
-        <a href="">Nitendo</a>
-    </section>
+    
     <main>
         
         <div class="BIGBOSS">
@@ -131,21 +141,26 @@
         
     </main>
     <footer>
-        <div class="infos">
-            <h4>Informations nous concernant </h4>
-            <p>Siége social : ..........</p>
-            <p>Numéro SAV: .............</p>
-            <p>Nous contacter: .........</p>
-
-        </div>
-        <div class="footer-icon">
-            <i class="fab fa-facebook"><a href="http://facebook.fr/" target="_blank" class="network"></a></i>
-            <i class="fab fa-twitter"><a href="http://twitter.fr/" target="_blank" class="network"></a></i>
-            <i class="fab fa-instagram"><a href="http://instagram.fr/" target="_blank" class="network"></a></i>
-        </div>
-        <div class="footer-logo">
+        <!-- <div class="footer-logo">
             <img src="./img/logo.png" alt="logo" class="footer-logo">
-        </div>
+        </div> -->
+        <div class="bigContainer">
+            <div class="newsletter">
+              <p class="titleNewsletter">Newsletter</p>
+              <p class="E-mail">Recevez en avant première les dernières nouveautés & exclusivités
+                <label for="email" class="enterEmail">Entrez votre adresse e-mail :</label>
+                <input type="email" id="email" class="inputEmail1" pattern=".+@globex.com" size="30" required>
+                <form id="contactForm"><input type="submit" class="inputEmail2" value="Valider"></form>
+              </p>
+            </div>
+            <div class="followUs">
+                <p class="titleFollowUs">Suivez-nous</p>
+                <div class="logosContainer">
+                  <img src="img/facebooklogo.png" class="imglogos imgFacebook" />
+                  <img src="img/twitterlogo.png" class="imglogos imgTwitter" />
+                  <img src="img/instagramlogo.png" class="imglogos imgInstagram" />
+                </div>
+              </div>
 
     </footer>
 </body>
