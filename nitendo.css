@@ -15,33 +15,24 @@ a {
   }
 
 /* *********************header***************** */
-header{
-    background-color: white;
-    height: 15vh;
-    display: flex;
-    justify-content: space-between;
-    background-color: #fe0016;
+body {
+    background-color: black;
+}
+.container-fluid{
+    background-color: rgb(255, 197, 197);
+    color: #9bc848;
+}
+.nav-item{
+    color: #9bc848;
+}
+#navbarDropdown{
+    color: #fe0016;
 }
 
 
-nav{
-    display: flex;
-    align-items: center;  
-}
-.lien-nav{
-    
-}
-
-.logo{
-    overflow: hidden;
-    width: 20vw;
-  height: 15vh;
-}
-
-.input{
-    padding-right: 20px;
-  font-size: 1em;
-  
+.logo {
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 
@@ -52,9 +43,7 @@ nav{
     background-color: #201e20;
     color: #fff;
     height: 100px;
-    text-align: center;
-    font-size: 26px;
-    
+    text-align: center;   
 }
 #color1{
     color: #665cbe;
