@@ -1,6 +1,6 @@
 *{
   margin: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 a {
@@ -43,7 +43,9 @@ body {
   background-color: #201e20;
   color: #fff;
   height: 100px;
-  text-align: center;   
+  text-align: center;  
+  justify-content: space-between; 
+  font-size: 26px;
 }
 #color1{
   color: #665cbe;
@@ -94,7 +96,7 @@ body {
   height: 100%;
 }
 .card-p {
-  height: 20vh;
+  height: 30vh;
 }
 
 /* .div-info {
@@ -103,7 +105,7 @@ body {
 } */
 .div-b {
   width: 100%;
-  margin: 20px;
+  margin: 10px;
   font-size: 2em;
 }
 button {
