@@ -4,30 +4,10 @@
 }
 
 a {
-<<<<<<< HEAD
-    text-decoration: none;
-    color: #001219;
-    list-style: none;
-    text-decoration: none;
-  }
-  li{
-    list-style: none;
-    text-decoration: none;
-  }
-
-/* *********************header***************** */
-header{
-    background-color: white;
-    height: 15vh;
-    display: flex;
-    justify-content: space-between;
-    background-color: #665cbe;
-=======
   text-decoration: none;
   color: black;
   list-style: none;
   text-decoration: none;
->>>>>>> 0a3c558754acb95c96b7cde15a618384bee10118
 }
 li {
   list-style: none;
@@ -35,29 +15,27 @@ li {
 }
 
 /* *********************header***************** */
-header {
-  height: 15vh;
-  display: flex;
-  justify-content: space-between;
+body {
+  background-color: black;
 }
-
-nav {
-  display: flex;
-  align-items: center;
+.container-fluid {
+  background-color: white;
+  color: #9bc848;
 }
-
-.div-header {
-  padding-right: 20px;
-  font-size: 2em;
+.nav-item {
+  color: #9bc848;
 }
-
-.div-logo {
-  overflow-y: hidden;
+#navbarDropdown {
+  color: #fe0016;
 }
 
 .logo {
-  width: 20vw;
-  height: 15vh;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.navbar {
+  margin: 0;
+  padding: 0;
 }
 
 /* **************section****************************** */
@@ -68,6 +46,7 @@ nav {
   height: 100px;
   text-align: center;
   font-size: 26px;
+  justify-content: space-between;
 }
 #color1 {
   color: #665cbe;
@@ -116,6 +95,9 @@ nav {
   width: 100%;
   height: 80%;
 }
+.card-p {
+  height: 20vh;
+}
 
 /* .div-info {
     display: flex;
@@ -141,7 +123,7 @@ footer {
   box-shadow: 0px -1px 4px -1px rgb(207 207 207);
   margin-top: 50px;
   padding-top: 15px;
-  background-color: #665cbe;
+  background-color: #fe0016;
 }
 
 .bigContainer {
@@ -217,46 +199,6 @@ footer {
   100% {
     opacity: 1;
   }
-<<<<<<< HEAD
-  
-  @-webkit-keyframes flash {
-    0% {
-      opacity: 0.4;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  @keyframes flash {
-    0% {
-      opacity: 0.4;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  /* NEWSLETTER */
-  
-  .enterEmail {
-    display: block;
-  }
-  
-  .inputEmail1 {
-    margin: 0.4rem 0;
-    border: 1px solid #CCC5B9;
-    border-radius: 2px;
-    padding: 0.3em 0.3em 0.3em 0.3em;
-  }
-  
-  .inputEmail2 {
-    margin: 0.4rem 0;
-    border: 1px solid #CCC5B9;
-    border-radius: 2px;
-    padding: 0.3em 0.3em 0.3em 0.3em;
-    cursor: pointer;
-=======
 }
 
 .titleNewsletter {
@@ -288,7 +230,6 @@ footer {
   }
   100% {
     opacity: 1;
->>>>>>> 0a3c558754acb95c96b7cde15a618384bee10118
   }
 }
 
