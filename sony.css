@@ -4,7 +4,6 @@
 }
 
 a {
-<<<<<<< HEAD
     text-decoration: none;
     color: #001219;
     list-style: none;
@@ -22,12 +21,6 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: #665cbe;
-=======
-  text-decoration: none;
-  color: black;
-  list-style: none;
-  text-decoration: none;
->>>>>>> 0a3c558754acb95c96b7cde15a618384bee10118
 }
 li {
   list-style: none;
@@ -217,7 +210,6 @@ footer {
   100% {
     opacity: 1;
   }
-<<<<<<< HEAD
   
   @-webkit-keyframes flash {
     0% {
@@ -256,39 +248,6 @@ footer {
     border-radius: 2px;
     padding: 0.3em 0.3em 0.3em 0.3em;
     cursor: pointer;
-=======
-}
-
-.titleNewsletter {
-  font-size: 30px;
-}
-
-.titleFollowUs {
-  font-size: 30px;
-}
-
-.E-mail {
-  margin-top: 10px;
-}
-
-.logoWCS {
-  height: 25px;
-  width: 75px;
-}
-
-.logoWCS:hover {
-  opacity: 1;
-  -webkit-animation: flash 1.5s;
-  animation: flash 1.5s;
-}
-
-@-webkit-keyframes flash {
-  0% {
-    opacity: 0.4;
-  }
-  100% {
-    opacity: 1;
->>>>>>> 0a3c558754acb95c96b7cde15a618384bee10118
   }
 }
 
