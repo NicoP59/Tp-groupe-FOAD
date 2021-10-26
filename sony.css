@@ -231,10 +231,6 @@ footer {
     cursor: pointer;
   }
 
-
-
-
-
 @keyframes flash {
   0% {
     opacity: 0.4;
@@ -274,3 +270,5 @@ footer {
   box-shadow: 0 1px #666;
   transform: translateY(2px);
 }
+
+/* *******************************Responsive*************************** */
