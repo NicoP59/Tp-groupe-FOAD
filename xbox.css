@@ -1,164 +1,275 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&family=Work+Sans:wght@300&display=swap');
+*{
+  margin: 0;
+  overflow-x: hidden;
+}
 
+a {
+  text-decoration: none;
+  color: #201e20;
+  list-style: none;
+  text-decoration: none;
+}
+li{
+  list-style: none;
+  text-decoration: none;
+}
 
-
+/* *********************header***************** */
 body {
-    background-color: #001219;
+  background-color: #201e20;
 }
 .container-fluid{
-    background-color: #fff;
-    color: #9bc848;
+  background-color: #fff;
+  color: #9bc848;
 }
 .nav-item{
-    color: #9bc848;
+  color: #9bc848;
 }
 #navbarDropdown{
-    color: #9bc848;
+  color: #9bc848;
 }
 
 
 .logo {
-    padding-top: 10px;
-    padding-left: 10px;
-}
-
-#liens {
-    text-align: right;
-    color: #9bc848;
-    text-decoration: none;
-    font-size: 26px;
-}
-.lien {
-    text-align: right;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 
 
+
+/* **************section****************************** */
 .rubrique {
-    font-size: 26px;
-    text-align: center;
-    background-color: #001219;
-    padding-bottom: 150px;
-    
+  background-color: #201e20;
+  color: #fff;
+  height: 100px;
+  text-align: center;   
 }
-#color1 {
-    color:#665cbe ;
-    text-decoration: none;
+#color1{
+  color: #665cbe;
 }
-#color2 {
-    color:#9bc848 ;
-    text-decoration: none;
+#color2{
+  color: #9bc848;
 }
-#color3 {
-    color:#fe0016 ;
-    text-decoration: none;
-}
-.main-item {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 150px;
-}
-#p1 {
-    text-align: center;
-    font-size: 24px;
-    color: #9bc848;
-    font-family: 'Arimo', sans-serif;
-    
-}
-.item1{
-    height: 150px;
-    padding-top: 10px;
-}
-.item2{
-    height: 150px;
-    padding-top: 10px;
-}
-.item3{
-    height: 150px;
-    padding-top: 10px;
-}
-.item4{
-    height: 150px;
-    padding-top: 10px;
-}
-.item5{
-    height: 150px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+#color3{
+  color: #fe0016;
 }
 
+
+
+/* **********ACCESSOIRES********************* */
+
+.BIGBOSS {
+  display: flex;
+  background-color: white;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  
+}
+
+.card {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.div-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.card-p {
+  height: 20vh;
+}
+
+/* .div-info {
+  display: flex;
+  width: 105%;
+} */
+.div-b {
+  width: 100%;
+  margin: 20px;
+  font-size: 2em;
+}
+button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+} 
+
+
+
+/* ******************************footer************************ */
 footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
-    box-shadow: 0px -1px 4px -1px rgb(207 207 207);
-    margin-top: 50px;
-    padding-top: 15px;
-    background-color: #001219;
-    border-top: #9bc848 solid 1px;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  box-shadow: 0px -1px 4px -1px rgb(207 207 207);
+  margin-top: 50px;
+  padding-top: 15px;
+  background-color: #9bc848;
+}
 
-  }
+.bigContainer {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding-bottom: 10px;
   
-  .bigContainer {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    padding-bottom: 10px;
+}
+
+.newsletter {
+  text-align: center;
+  width: 50%;
+  height: auto;
+}
+
+.followUs {
+  text-align: center;
+  width: 50%;
+  height: auto;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 18px 0 10px 0;
+}
+
+.copyright a {
+  position: relative;
+  left: 10px;
+  bottom: 1px;
+}
+
+.imglogos {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.imgFacebook {
+  position: relative;
+  left: -6px;
+}
+
+.imgTwitter {
+  position: relative;
+  left: -4px;
+}
+
+.imglogos:hover {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 0.4;
   }
-  
-  .newsletter {
-    text-align: center;
-    width: 50%;
-    height: auto;
-    color: #9bc848;
-  }
-  
-  .followUs {
-    text-align: center;
-    width: 50%;
-    height: auto;
-  }
-  
-  .copyright {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    padding: 18px 0 10px 0;
-    color: #9bc848;
-  }
-  
-  .copyright a {
-    position: relative;
-    left: 10px;
-    bottom: 1px;
-  }
-  .imglogos {
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
-    cursor: pointer;
-    background-color: #9bc848;
-    
-  }
-  
-  .imgFacebook {
-    position: relative;
-    left: -6px;
-    background-color: #9bc848;
-  }
-  
-  .imgTwitter {
-    position: relative;
-    left: -4px;
-    background-color: #9bc848;
-  }
-  
-  .imglogos:hover {
+  100% {
     opacity: 1;
-    -webkit-animation: flash 1.5s;
-    animation: flash 1.5s;
   }
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.titleNewsletter {
+  font-size: 30px;
+}
+
+.titleFollowUs {
+  font-size: 30px;
+}
+
+.E-mail {
+  margin-top: 10px;
+}
+
+.logoWCS {
+  height: 25px;
+  width: 75px;
+}
+
+.logoWCS:hover {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* NEWSLETTER */
+
+.enterEmail {
+  display: block;
+}
+
+.inputEmail1 {
+  margin: 0.4rem 0;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  padding: 0.3em 0.3em 0.3em 0.3em;
+}
+
+.inputEmail2 {
+  margin: 0.4rem 0;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  padding: 0.3em 0.3em 0.3em 0.3em;
+  cursor: pointer;
+}
+
+.inputEmail2:hover {
+  background-color: #ced1ce;
+}
+
+.inputEmail2:active {
+  background-color: #ced1ce;
+  box-shadow: 0 1px #666;
+  transform: translateY(2px);
+}
