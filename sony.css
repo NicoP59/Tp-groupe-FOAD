@@ -4,7 +4,10 @@
 }
 
 a {
+
     text-decoration: none;
+    
+
     color: #001219;
     list-style: none;
     text-decoration: none;
@@ -12,7 +15,7 @@ a {
   li{
     list-style: none;
     text-decoration: none;
-  }
+  } 
 
 /* *********************header***************** */
 header{
@@ -20,11 +23,21 @@ header{
     height: 15vh;
     display: flex;
     justify-content: space-between;
+
     background-color: #665cbe;
+
+
 }
-li {
-  list-style: none;
+  
+    
+
+.lien {
+  text-align: right;
   text-decoration: none;
+  
+}
+.form-group {
+  width:500px;
 }
 
 /* *********************header***************** */
@@ -210,6 +223,9 @@ footer {
   100% {
     opacity: 1;
   }
+
+}
+
   
   @-webkit-keyframes flash {
     0% {
@@ -249,7 +265,10 @@ footer {
     padding: 0.3em 0.3em 0.3em 0.3em;
     cursor: pointer;
   }
-}
+
+
+
+
 
 @keyframes flash {
   0% {
