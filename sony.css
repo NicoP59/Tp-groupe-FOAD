@@ -5,7 +5,7 @@
 
 a {
     text-decoration: none;
-    color: black;
+    color: #001219;
     list-style: none;
     text-decoration: none;
   }
@@ -262,14 +262,14 @@ nav{
   
   .inputEmail1 {
     margin: 0.4rem 0;
-    border: 1px solid lightgray;
+    border: 1px solid #CCC5B9;
     border-radius: 2px;
     padding: 0.3em 0.3em 0.3em 0.3em;
   }
   
   .inputEmail2 {
     margin: 0.4rem 0;
-    border: 1px solid lightgray;
+    border: 1px solid #CCC5B9;
     border-radius: 2px;
     padding: 0.3em 0.3em 0.3em 0.3em;
     cursor: pointer;

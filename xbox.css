@@ -3,7 +3,7 @@
 
 
 body {
-    background-color: black;
+    background-color: #001219;
 }
 .container-fluid{
     background-color: #fff;
@@ -42,7 +42,7 @@ body {
     
 }
 #color1 {
-    color:#9bc848 ;
+    color:#665cbe ;
     text-decoration: none;
 }
 #color2 {
@@ -50,7 +50,7 @@ body {
     text-decoration: none;
 }
 #color3 {
-    color:#9bc848 ;
+    color:#fe0016 ;
     text-decoration: none;
 }
 .main-item {
@@ -88,7 +88,7 @@ body {
 }
 
 footer {
-    background-color: black;
+    background-color: #001219;
     
 }
 .infos {

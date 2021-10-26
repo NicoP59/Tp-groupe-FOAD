@@ -5,7 +5,7 @@
 
 a {
     text-decoration: none;
-    color: black;
+    color: #201e20;
     list-style: none;
     text-decoration: none;
   }
@@ -16,7 +16,7 @@ a {
 
 /* *********************header***************** */
 body {
-    background-color: black;
+    background-color: #201e20;
 }
 .container-fluid{
     background-color: rgb(255, 197, 197);
