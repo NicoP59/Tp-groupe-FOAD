@@ -1,92 +1,61 @@
-* {
+*{
   margin: 0;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 a {
-
-    text-decoration: none;
-    
-
-    color: #001219;
-    list-style: none;
-    text-decoration: none;
-  }
-  li{
-    list-style: none;
-    text-decoration: none;
-  } 
-
-/* *********************header***************** */
-header{
-    background-color: white;
-    height: 15vh;
-    display: flex;
-    justify-content: space-between;
-
-    background-color: #665cbe;
-
-
-}
-  
-    
-
-.lien {
-  text-align: right;
   text-decoration: none;
-  
+  color: #201e20;
+  list-style: none;
+  text-decoration: none;
 }
-.form-group {
-  width:500px;
+li{
+  list-style: none;
+  text-decoration: none;
 }
 
 /* *********************header***************** */
-header {
-  height: 15vh;
-  display: flex;
-  justify-content: space-between;
+body {
+  background-color: #201e20;
+}
+.container-fluid{
+  background-color: #fff;
+  color: #665cbe;
+}
+.nav-item{
+  color: #665cbe;
+}
+#navbarDropdown{
+  color: #665cbe;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-}
-
-.div-header {
-  padding-right: 20px;
-  font-size: 2em;
-}
-
-.div-logo {
-  overflow-y: hidden;
-}
 
 .logo {
-  width: 20vw;
-  height: 15vh;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
-/* **************section****************************** */
 
+
+
+/* **************section****************************** */
 .rubrique {
   background-color: #201e20;
   color: #fff;
   height: 100px;
-  text-align: center;
-  font-size: 26px;
+  text-align: center;   
 }
-#color1 {
+#color1{
   color: #665cbe;
-  text-decoration: none;
 }
-#color2 {
+#color2{
   color: #9bc848;
-  text-decoration: none;
 }
-#color3 {
+#color3{
   color: #fe0016;
-  text-decoration: none;
 }
+
+
 
 /* **********ACCESSOIRES********************* */
 
@@ -97,6 +66,8 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+
+  
 }
 
 .card {
@@ -120,13 +91,16 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 80%;
+  height: 100%;
+}
+.card-p {
+  height: 20vh;
 }
 
 /* .div-info {
-    display: flex;
-    width: 105%;
-  } */
+  display: flex;
+  width: 105%;
+} */
 .div-b {
   width: 100%;
   margin: 20px;
@@ -136,7 +110,9 @@ button {
   display: block;
   margin-right: auto;
   margin-left: auto;
-}
+} 
+
+
 
 /* ******************************footer************************ */
 footer {
@@ -155,6 +131,7 @@ footer {
   justify-content: center;
   width: 50%;
   padding-bottom: 10px;
+  
 }
 
 .newsletter {
@@ -223,52 +200,39 @@ footer {
   100% {
     opacity: 1;
   }
-
 }
 
-  
-  @-webkit-keyframes flash {
-    0% {
-      opacity: 0.4;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  @keyframes flash {
-    0% {
-      opacity: 0.4;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  /* NEWSLETTER */
-  
-  .enterEmail {
-    display: block;
-  }
-  
-  .inputEmail1 {
-    margin: 0.4rem 0;
-    border: 1px solid #CCC5B9;
-    border-radius: 2px;
-    padding: 0.3em 0.3em 0.3em 0.3em;
-  }
-  
-  .inputEmail2 {
-    margin: 0.4rem 0;
-    border: 1px solid #CCC5B9;
-    border-radius: 2px;
-    padding: 0.3em 0.3em 0.3em 0.3em;
-    cursor: pointer;
-  }
+.titleNewsletter {
+  font-size: 30px;
+}
 
+.titleFollowUs {
+  font-size: 30px;
+}
 
+.E-mail {
+  margin-top: 10px;
+}
 
+.logoWCS {
+  height: 25px;
+  width: 75px;
+}
 
+.logoWCS:hover {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 @keyframes flash {
   0% {
