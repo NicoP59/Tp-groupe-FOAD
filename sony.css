@@ -1,69 +1,38 @@
 * {
   margin: 0;
-  /* overflow-x: hidden; */
+    /* overflow-x: hidden; */
 }
 
 a {
-
-    text-decoration: none;
-    
-
-    color: #001219;
-    list-style: none;
-    text-decoration: none;
-  }
+  text-decoration: none;
+  color: #201e20;
+  list-style: none;
+  text-decoration: none;
+}
+  
   li{
     list-style: none;
     text-decoration: none;
   } 
 
 /* *********************header***************** */
-header{
-    background-color: white;
-    height: 15vh;
-    display: flex;
-    justify-content: space-between;
-
-    background-color: #665cbe;
-
-
+body {
+  background-color: #201e20;
 }
-  
-    
-
-.lien {
-  text-align: right;
-  text-decoration: none;
-  
+.container-fluid{
+  background-color: white(255, 197, 197);
+  color: #9bc848;
 }
-.form-group {
-  width:500px;
+.nav-item{
+  color: #9bc848;
 }
-
-/* *********************header***************** */
-header {
-  height: 15vh;
-  display: flex;
-  justify-content: space-between;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-}
-
-.div-header {
-  padding-right: 20px;
-  font-size: 2em;
-}
-
-.div-logo {
-  overflow-y: hidden;
+#navbarDropdown{
+  color:#665cbe ;
 }
 
 .logo {
-  width: 20vw;
-  height: 15vh;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 /* **************section****************************** */
@@ -127,11 +96,11 @@ nav {
     display: flex;
     width: 105%;
   } */
-.div-b {
+  .div-b {
   width: 100%;
-  margin: 20px;
+   margin: 10px;
   font-size: 2em;
-}
+} 
 button {
   display: block;
   margin-right: auto;
