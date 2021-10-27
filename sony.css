@@ -191,7 +191,7 @@ footer {
   animation: flash 1.5s;
 }
 
-@-webkit-keyframes flash {
+/* @-webkit-keyframes flash {
   0% {
     opacity: 0.4;
   }
@@ -279,6 +279,6 @@ footer {
   background-color: #ced1ce;
   box-shadow: 0 1px #666;
   transform: translateY(2px);
-}
+} */
 
 /* *******************************Responsive*************************** */
