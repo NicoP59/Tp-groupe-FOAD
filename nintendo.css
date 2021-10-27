@@ -268,3 +268,12 @@ footer {
   box-shadow: 0 1px #666;
   transform: translateY(2px);
 }
+
+/* *******************responsive******************** */
+@media screen and (max-width: 500px) {
+  .div-b {
+    width: 100%;
+    margin: 10px;
+    font-size: 1em;
+  }
+}
