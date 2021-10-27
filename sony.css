@@ -1,10 +1,7 @@
-*{
+* {
   margin: 0;
 
-  overflow-x: hidden;
-
-    /* overflow-x: hidden; */
-
+  /* overflow-x: hidden;  */
 }
 
 a {
@@ -14,71 +11,62 @@ a {
   text-decoration: none;
 }
 
-li{
+li {
   list-style: none;
   text-decoration: none;
 }
 
-  
-  li{
-    list-style: none;
-    text-decoration: none;
-  } 
-
+li {
+  list-style: none;
+  text-decoration: none;
+}
 
 /* *********************header***************** */
 body {
   background-color: #201e20;
 }
-.container-fluid{
-
+.container-fluid {
   background-color: #fff;
   color: #665cbe;
 }
-.nav-item{
+.nav-item {
   color: #665cbe;
 }
-#navbarDropdown{
+#navbarDropdown {
   color: #665cbe;
 
   background-color: white(255, 197, 197);
   color: #9bc848;
 }
-.nav-item{
+.nav-item {
   color: #9bc848;
 }
-#navbarDropdown{
-  color:#665cbe ;
-
+#navbarDropdown {
+  color: #665cbe;
 }
-
 
 .logo {
   padding-top: 10px;
   padding-left: 10px;
 }
 
-
-
-
 /* **************section****************************** */
 .rubrique {
   background-color: #201e20;
   color: #fff;
   height: 100px;
-  text-align: center;   
+  text-align: center;
+  font-size: 26px;
 }
-#color1{
+#color1 {
   color: #665cbe;
 }
-#color2{
+#color2 {
   color: #9bc848;
 }
-#color3{
+#color3 {
   color: #fe0016;
 }
-
-
 
 /* **********ACCESSOIRES********************* */
 
@@ -89,8 +77,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-
-  
 }
 
 .card {
@@ -120,28 +106,21 @@ body {
   height: 20vh;
 }
 
-
 /* .div-info {
   display: flex;
   width: 105%;
 } */
-.div-b {
 
 .div-b {
-
   width: 100%;
   margin: 10px;
   font-size: 2em;
-} 
+}
 button {
   display: block;
   margin-right: auto;
   margin-left: auto;
-} 
 }
-
-
-
 
 /* ******************************footer************************ */
 footer {
@@ -160,7 +139,6 @@ footer {
   justify-content: center;
   width: 50%;
   padding-bottom: 10px;
-  
 }
 
 .newsletter {
@@ -239,7 +217,6 @@ footer {
   font-size: 30px;
 }
 
-
 .E-mail {
   margin-top: 10px;
 }
@@ -263,8 +240,6 @@ footer {
     opacity: 1;
   }
 }
-
-
 
 @keyframes flash {
   0% {
