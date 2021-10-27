@@ -13,7 +13,10 @@ body{
 }
 
 /* ****************** Main ***************** */
-
+.presentation {
+  text-align: center;
+  padding-bottom: 20px;
+}
 
 /* ****************** section 1 *************** */
 .rubrique {
